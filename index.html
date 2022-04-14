@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/b59289886c.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="css/style.css">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ALXSDLR - Portfolio</title>
+  </head>
+  <body>
+    <div class="particles-js" id="particles-js"></div>
+  <!-- Start the nav section -->
+    <header class="header" id="header"> 
+      <div class="img-container">
+        <a href="#about" class="img-container__a">
+        <img src="https://alxsdlr-music.vercel.app/imagenes/fondo.jpg" alt="alxs imagen png" class="header-img"> 
+        <span>Alexis De Leon</span></a>
+      </div>
+
+      <button class="menu-btn" aria-controls="navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav class="navigation" id="navbar">
+        <ul class="navigation__ul" id="navigation" data-visible="false"> 
+          <li class="navigation__ul-li">
+            <a href="#about">
+              <span class="span"><i class="fa-solid fa-house"></i>
+              </span>Home
+            </a>
+            </li>    
+          <li class="navigation__ul-li">
+            <a href="#projects">
+              <span class="span"><i class="fa-solid fa-briefcase"></i>
+              </span>Projects
+            </a>
+          </li>
+          <li class="navigation__ul-li"><a href="#contact"><span class="span"><i class="fa-solid fa-person"></i></span> Contact me</a></li>    
+        </ul>
+      </nav>
+    </header>
+    <!-- Start the hero, welcome section -->
+    <section class="welcome-section" id="about">
+    <div class="cont-name">
+      <div>
+        <h1 class="name-title" >
+        Alexis De Leon Rodriguez 
+      </h1>
+      </div>
+      <span class="aka">AKA @alxsdlr</span>
+      <p>Front-end Developer</p>
+      </div>
+      <div class="desc-cont">
+        <div class="desc">
+          <p> I live in Nava, Coahuila MX, I'm studying at Universidad Tecnologica del Norte de Coahuila, but I am also taking online web development courses to expand my knowledge. <br>
+            I <span>&#10084;</span> to code and create websites.    
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end the hero, welcome section -->
+    <!-- Start the grid section, projects section -->
+    <div class="flex-projects">
+      <section class="hero-projects" id="#projects">
+        <h2>
+          Projects
+        </h2>
+          <p> A little section of my web projects
+          </p>
+      </section>
+      <section class="container-grid">
+    <div class="work" id="work">
+      <div class="grid-item webpage">
+        <h3>ALXSDLR Web Page</h3>
+        <img src="https://github.com/alexisdlr/ALXSDLR-music-page/blob/main/alxsPage.jpg?raw=true" alt="Alxs website page" class="grid-img">
+        <div class="text">
+          <a href="" class="btn" target="_blank"><i class="fa-solid fa-code"></i>code</a>  
+          <a href="https://alxsdlr-music.vercel.app/" target="_blank" class="btn btn-view">View</a>   
+        </div>
+      </div>
+        <div class="grid-item landing-page">
+          <h3>Landing Page</h3>
+          <img src="https://github.com/alexisdlr/ALXSDLR-music-page/blob/main/landing-ss.jpg?raw=true" alt="Alxs website page" class="grid-img">   
+        <div class="text">
+          <a href="" class="btn" target="_blank"><i class="fa-solid fa-code"></i>code</a>  
+          <a href="https://cdpn.io/pen/debug/yLpozxN?authentication_hash=mVkbGBVLnQPM" target="_blank" class="btn btn-view">View</a>  
+        </div>
+      </div>
+      <div class="grid-item card">
+            <h3>Space tourism Website</h3>
+            <img src="https://github.com/alexisdlr/Space-Tourism-Website/blob/master/space.jpg?raw=true" alt="Alxs website page" class="grid-img">
+        <div class="text">
+          <a href="https://github.com/alexisdlr/Space-Tourism-Website" class="btn" target="_blank"><i class="fa-solid fa-code"></i>code</a>  
+          <a href="https://space-tourism-website-delta.vercel.app/index.html" class="btn btn-view" target="_blank">View </a>  
+        </div>
+      </div>
+        <div class="grid-item ">
+          <h3>ALXSDLR Web Page</h3>
+        <img src="https://github.com/alexisdlr/ALXSDLR-music-page/blob/main/landing-ss.jpg?raw=true" alt="Alxs website page" class="grid-img">
+        <div class="text">
+          <a href="https://github.com/alexisdlr/Space-Tourism-Website" class="btn" target="_blank"><i class="fa-solid fa-code"></i>code</a>  
+          <a href="" class="btn btn-view">View</a>  
+        </div>
+      </div>
+      
+      </div>
+      </section>
+    </div>
+
+    <section class="hero-contact" id="contact">
+            <div class="conect">
+                <h2>
+                    Let's Conect!
+                </h2> 
+                <span >Hire me</span>
+                <p> If you are interested in collaborating in any project, hire me or just want to say hello, write me a message through my email alexisdlr3009@hotmail.com and I will respond as soon as possible.</p>
+            </div>
+            <div class="form-container">
+              <form action="https://formsubmit.co/alexgoku500@gmail.com" method="post" class="form">
+                <span>Send me a message</span>
+                <div class="name">
+                  <label for="Name">Name:</label>
+                  <input type="text" name="name" id="Name" required>
+                </div>
+                <div class="email">
+                  <label for="Email">Email:</label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+                <div class="message">
+                  <label for="message">message:</label>
+                  <input type="text" name="message" id="message" required>
+                </div>
+                <button type="submit" class="btn btn-form">Send</button>
+              </form>
+            </div>
+    </section>
+    <footer class="footer">
+      <div class="alxs-footer">
+        <span>Alexis De Leon</span>
+        <p>Frontend Web Developer</p>
+      </div>
+      <div class="redes-sociales">
+        <ul>
+            <li>  
+            <a href="https://www.facebook.com/AlexisDlrdz/" target="_blank"><span class="redes"><i class="fa-brands fa-facebook"></i></span></a>
+            </li>
+            <li>  
+                
+                <a href="https://www.instagram.com/alxs_dlrr/?hl=es" target="_blank"><span class="redes"><i class="fa-brands fa-instagram"></i></span></a>
+            </li>
+            <li>     
+                <a href="https://github.com/alexisdlr" target="_blank" id="profile-link" >                <span class="redes"><i class="fa-brands fa-github"></i></span>
+                </a>
+            </li>
+            <li>     
+              <a href="https://www.linkedin.com/in/alexis-de-leon-a20a9b236/" target="_blank" id="profile-link" >                <span class="redes"><i class="fa-brands fa-linkedin"></i></span>
+              </a>
+          </li>
+        </ul>
+    </div>
+    <div class="madeby">
+      <p> Made with ❤ by
+      <a href="https://github.com/alexisdlr" target="_blank" class="link">Alexis De Leon</a>
+      © 2022
+      </p>
+  </div>
+    </footer>
+    
+<script src="particles.js-master/particles.min.js"></script>
+<script src="app.js"></script>
+<script src="nav.js"></script>
+<script src="/nav-responsive.js"></script>
+</body>
+</html>
