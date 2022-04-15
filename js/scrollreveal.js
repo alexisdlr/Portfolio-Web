@@ -6,6 +6,7 @@ ScrollReveal().reveal('.dev', { duration: 2000, origin: 'top', distance: '-180px
 ScrollReveal().reveal('.projects', { duration: 2000, origin: 'left', distance: '-180px' });
 ScrollReveal().reveal('.projects-p', { duration: 2000, origin: 'left', distance: '200px' });
 ScrollReveal().reveal('.work', { duration: 3000, origin: 'bottom', distance: '180px' });
+ScrollReveal().reveal('.about-me', { duration: 3000, origin: 'center', distance: '0' });
 ScrollReveal().reveal('.conect', { duration: 3000, origin: 'top', distance: '180px' });
 ScrollReveal().reveal('.form', { duration: 3000, origin: 'bottom', distance: '180px' });
 ScrollReveal().reveal('.footer', { duration: 2000, origin: 'top', distance: '180px' });

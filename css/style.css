@@ -356,7 +356,27 @@ body {
     object-fit: cover;
     border-radius: 20px; }
   .about-me .about-text > p {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    opacity: .7; }
+  .about-me .interest {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .about-me .interest .sp-i {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem; }
+  .about-me .cont-int {
+    display: flex;
+    gap: 3rem; }
+    .about-me .cont-int i {
+      font-size: 3.5rem;
+      color: #4d3d5f; }
+  .about-me .music, .about-me .tec, .about-me .basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem; }
 
 .hero-contact {
   width: 100%;
