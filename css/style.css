@@ -34,7 +34,7 @@ body {
       display: block;
       width: 2rem;
       position: absolute;
-      top: 1rem;
+      top: 1.5rem;
       right: 1rem;
       background-color: transparent;
       border: 1px solid #4d3d5f;
@@ -79,12 +79,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
-    @media screen and (min-width: 280px) and (max-width: 400px) {
+    @media screen and (min-width: 280px) and (max-width: 768px) {
       .header .img-container {
-        width: 30%; } }
-    @media screen and (min-width: 400px) and (max-width: 850px) {
-      .header .img-container {
-        width: 50%; } }
+        width: 80%; } }
     .header .img-container .img-container__a {
       display: flex;
       align-items: center; }
@@ -99,9 +96,6 @@ body {
       @media screen and (min-width: 280px) and (max-width: 400px) {
         .header .img-container .header-img {
           width: 60px; } }
-      @media screen and (min-width: 400px) and (max-width: 850px) {
-        .header .img-container .header-img {
-          width: 85px; } }
   .header .navigation {
     width: 50%;
     display: flex;
@@ -181,9 +175,15 @@ body {
       color: #94a1b2;
       opacity: .5;
       font-weight: 400; }
+      @media screen and (min-width: 280px) and (max-width: 768px) {
+        .welcome-section .cont-name .aka {
+          font-size: 1.6rem; } }
     .welcome-section .cont-name p {
       color: #4d3d5f;
       font-size: 3rem; }
+      @media screen and (min-width: 280px) and (max-width: 768px) {
+        .welcome-section .cont-name p {
+          font-size: 1.5rem; } }
   .welcome-section .desc-cont {
     width: 100%;
     display: flex;
@@ -197,9 +197,12 @@ body {
       padding: 1rem; }
       @media screen and (min-width: 280px) and (max-width: 768px) {
         .welcome-section .desc-cont .desc {
-          width: 80%; } }
+          width: 100%; } }
       .welcome-section .desc-cont .desc p {
         font-size: 1.6rem; }
+        @media screen and (min-width: 280px) and (max-width: 768px) {
+          .welcome-section .desc-cont .desc p {
+            font-size: 1rem; } }
       .welcome-section .desc-cont .desc span {
         border: none; }
 
@@ -214,6 +217,9 @@ body {
   width: 50%;
   text-align: center;
   margin-bottom: 2rem; }
+  @media screen and (min-width: 280px) and (max-width: 768px) {
+    .hero-projects {
+      width: 100%; } }
   .hero-projects h2 {
     color: #4d3d5f;
     margin: 0;
@@ -226,9 +232,9 @@ body {
   @media screen and (min-width: 280px) and (max-width: 768px) {
     .hero-projects h2 {
       color: #4d3d5f;
-      font-size: 2rem; }
+      font-size: 2.2rem; }
     .hero-projects p {
-      font-size: 1.1rem; } }
+      font-size: 1.3rem; } }
 
 /*Style for grid section*/
 .container-grid {
@@ -301,14 +307,16 @@ body {
       margin: 0 0 1.5rem 0; }
     @media screen and (min-width: 280px) and (max-width: 768px) {
       .work .grid-item {
-        width: 275px; } }
+        width: 270px; }
+        .work .grid-item h3 {
+          font-size: 1rem; } }
   .work .grid-img {
     width: 300px;
     height: 200px;
     border-radius: 8px; }
     @media screen and (min-width: 280px) and (max-width: 768px) {
       .work .grid-img {
-        width: 275px; } }
+        width: 270px; } }
 
 .hero-contact {
   width: 100%;
@@ -320,6 +328,9 @@ body {
   @media (max-width: 768px) {
     .hero-contact {
       flex-direction: column; } }
+  @media (max-height: 480px) {
+    .hero-contact {
+      margin-bottom: 6rem; } }
   .hero-contact .conect {
     width: 50%; }
     .hero-contact .conect h2 {
@@ -340,7 +351,7 @@ body {
         padding: 1rem; }
         .hero-contact .conect h2 {
           font-family: 'PT sans', sans-serif;
-          font-size: 1.8rem;
+          font-size: 2rem;
           color: #4d3d5f;
           margin: 0; }
         .hero-contact .conect span {
@@ -407,19 +418,20 @@ body {
     width: 33%; }
     @media (max-width: 768px) {
       .footer .madeby {
-        width: 100%; } }
+        width: 100%;
+        font-size: 1.2rem; } }
   .footer .alxs-footer {
     width: 33%; }
-    @media (max-width: 768px) {
-      .footer .alxs-footer {
-        width: 100%;
-        text-align: center; } }
     .footer .alxs-footer span {
       font-weight: 700;
       font-size: 2rem;
       margin: 0 0 1rem 0; }
     .footer .alxs-footer p {
       font-weight: 200; }
+    @media (max-width: 768px) {
+      .footer .alxs-footer {
+        width: 100%;
+        text-align: center; } }
   .footer .link {
     color: #4d3d5f; }
     .footer .link:hover {

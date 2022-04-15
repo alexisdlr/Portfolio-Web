@@ -33,7 +33,7 @@ body {
       display: block;
       width: 2rem;
       position: absolute;
-      top: 1rem;
+      top: 1.5rem;
       right: 1rem;
       background-color: transparent;
       border: 1px solid #4d3d5f;
@@ -86,12 +86,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-     @media screen and (min-width: 280px) and (max-width: 400px) {
-                width: 30%;
+     @media screen and (min-width: 280px) and (max-width: 768px) {
+                width:80%;
   }
-       @media screen and (min-width: 400px) and (max-width: 850px) {
-                width: 50%;
-  }
+  
   .img-container__a {
     display:flex;
     align-items: center;
@@ -106,12 +104,9 @@ body {
         box-shadow:0 0 2px #4d3d5f;
         margin-right: .5rem;
         @media screen and (min-width: 280px) and (max-width: 400px) {
-      width: 60px;
-  }
-            @media screen and (min-width: 400px) and (max-width: 850px) {
-      width: 85px;
-  }
-  }
+            width: 60px;
+        }      
+      }
   }
 
   /*Styles for nav-container*/
@@ -205,11 +200,18 @@ body {
          color: rgb(148, 161, 178);
          opacity: .5;
          font-weight:400;
+         @media screen and (min-width: 280px) and (max-width: 768px){
+          font-size: 1.6rem;
+        }
+
        }
 
      p { 
        color: #4d3d5f;
-       font-size: 3rem;     
+       font-size: 3rem;   
+       @media screen and (min-width: 280px) and (max-width: 768px){
+        font-size: 1.5rem;
+      }  
 
      }
   } 
@@ -225,11 +227,14 @@ body {
       border-radius: 3px;
       padding: 1rem;
         @media screen and (min-width: 280px) and (max-width: 768px){
-           width: 80%;
+           width: 100%;
              
      }
       p {
         font-size: 1.6rem;
+        @media screen and (min-width: 280px) and (max-width: 768px){
+          font-size: 1rem;
+        }
       }
       span {
         border: none;
@@ -249,6 +254,9 @@ body {
   width: 50%;
   text-align:center;
   margin-bottom: 2rem;
+  @media screen and (min-width: 280px) and (max-width: 768px){
+    width: 100%;
+  }
   h2 {
     color:#4d3d5f;
     margin:0;
@@ -263,10 +271,10 @@ body {
   @media screen and (min-width: 280px) and (max-width: 768px){
        h2 {
     color:#4d3d5f;
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
     p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
     }
 }
@@ -341,7 +349,10 @@ body {
       margin: 0 0 1.5rem 0;
     }
     @media screen and (min-width: 280px) and (max-width: 768px){
-      width: 275px;
+      width: 270px;
+        h3 {
+          font-size: 1rem;
+        }
     }
   }
   .grid-img {
@@ -349,7 +360,7 @@ body {
     height: 200px;
     border-radius: 8px;
     @media screen and (min-width: 280px) and (max-width:        768px){
-      width: 275px;
+      width: 270px;
     }
   }
   /*
@@ -367,6 +378,9 @@ body {
   align-items: center;
   @media (max-width: 768px) {
     flex-direction:column;
+  }
+  @media (max-height: 480px) {
+    margin-bottom: 6rem;
   }
   
   .conect { 
@@ -391,7 +405,7 @@ body {
       padding: 1rem;
       h2 {
         font-family: 'PT sans', sans-serif;
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: #4d3d5f;
         margin: 0;
       }
@@ -471,14 +485,12 @@ body {
       width: 33%;
       @media (max-width: 768px){
         width: 100%;
+        font-size: 1.2rem;
       }
     }
     .alxs-footer {
       width: 33%;
-      @media (max-width: 768px){
-        width: 100%;
-        text-align: center;
-      }
+      
         span {
           font-weight: 700;
           font-size: 2rem;
@@ -486,6 +498,10 @@ body {
         }
         p {
           font-weight: 200;
+        }
+        @media (max-width: 768px){
+          width: 100%;
+          text-align: center;
         }
     }
   .link{ 
