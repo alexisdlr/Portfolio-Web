@@ -381,10 +381,9 @@ body {
   align-items: center;
   @media (max-width: 768px) {
     flex-direction:column;
-  }
-  @media (max-height: 480px) {
     margin-bottom: 6rem;
-  }
+
+  }  
   
   .conect { 
     width: 50%;
