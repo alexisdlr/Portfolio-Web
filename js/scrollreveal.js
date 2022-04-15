@@ -1,6 +1,5 @@
 ScrollReveal().reveal('.welcome-section', { duration: 2000, origin: 'bottom', distance: '-180px' });
 ScrollReveal().reveal('.img-container__a', { duration: 2000, origin: 'left', distance: '-180px' });
-ScrollReveal().reveal('.navigation__ul', { duration: 2000, origin: 'left', distance: '-180px' });
 ScrollReveal().reveal('.name-title', { duration: 2000, origin: 'left', distance: '180px' });
 ScrollReveal().reveal('.aka', { duration: 2000, origin: 'left', distance: '-180px' });
 ScrollReveal().reveal('.dev', { duration: 2000, origin: 'top', distance: '-180px' });
