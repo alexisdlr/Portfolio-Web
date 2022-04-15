@@ -41,7 +41,8 @@ body {
       border-radius: 50px;
       color: #fff;
       z-index: 999999;
-      aspect-ratio: 1; } }
+      aspect-ratio: 1;
+      cursor: pointer; } }
 
 .scroll {
   transition: .5s all ease-in;
@@ -114,6 +115,7 @@ body {
           height: 500px;
           position: fixed;
           flex-direction: column;
+          background-color: #4d3d5f;
           align-items: flex-start;
           justify-content: center;
           gap: 2em;
@@ -295,8 +297,9 @@ body {
     line-height: .8rem;
     border-radius: 8px; }
     .work .grid-item:hover {
-      transition: .5s;
+      transition: .5s all ease-in;
       opacity: .8;
+      cursor: pointer;
       transform: scale(1.1); }
       .work .grid-item:hover .btn {
         transition: .5s;
@@ -419,7 +422,8 @@ body {
     @media (max-width: 768px) {
       .footer .madeby {
         width: 100%;
-        font-size: 1.2rem; } }
+        font-size: 1.2rem;
+        text-align: center; } }
   .footer .alxs-footer {
     width: 33%; }
     .footer .alxs-footer span {

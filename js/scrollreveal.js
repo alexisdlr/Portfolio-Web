@@ -9,5 +9,4 @@ ScrollReveal().reveal('.projects-p', { duration: 2000, origin: 'left', distance:
 ScrollReveal().reveal('.grid-item', { duration: 3000, origin: 'bottom', distance: '180px' });
 ScrollReveal().reveal('.conect', { duration: 3000, origin: 'top', distance: '180px' });
 ScrollReveal().reveal('.form', { duration: 3000, origin: 'bottom', distance: '180px' });
-
-
+ScrollReveal().reveal('.footer', { duration: 3000, origin: 'bottom', distance: '180px' });

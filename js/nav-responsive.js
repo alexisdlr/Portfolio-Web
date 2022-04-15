@@ -13,4 +13,4 @@ function toggleMenu (e) {
         menuBtn.setAttribute("aria-expanded", false);
     }
 
-};
+}
