@@ -29,25 +29,31 @@
 
       <nav class="navigation" id="navbar">
         <ul class="navigation__ul" id="navigation" data-visible="false"> 
-          <li class="navigation__ul-li">
+          <li class="navigation__ul-li li-1">
             <a href="#about">
               <span class="span"><i class="fa-solid fa-house"></i>
               </span>Home
             </a>
             </li>    
-            <li class="navigation__ul-li">
+            <li class="navigation__ul-li li-2">
               <a href="#work">
                 <span class="span"><i class="fa-solid fa-briefcase"></i>
                 </span>Portfolio
               </a>
-              </li>
-              <li class="navigation__ul-li">
+            </li>
+            <li class="navigation__ul-li li-3">
+              <a href="#education">
+                <span class="span"><i class="fa-solid fa-laptop-code"></i>
+                </span>Education
+              </a>
+            </li>
+              <li class="navigation__ul-li li-4">
                 <a href="#about-me">
                   <span class="span"><i class="fa-solid fa-person"></i>
                   </span>About Me
                 </a>
                 </li>      
-          <li class="navigation__ul-li"><a href="#contact"><span class="span"></i>
+          <li class="navigation__ul-li li-5"><a href="#contact"><span class="span"></i>
             <i class="fa-solid fa-message"></i></span> Contact me</a></li>    
         </ul>
       </nav>
@@ -119,6 +125,29 @@
       </div>
       </section>
     </div>
+    <section class="education" id="education">
+      <div class="education-title">
+        <h2>
+          Education
+        </h2> 
+        <span>What I've learned</span>  
+        <p>I have been learning web development on my own, however, here you will find my history in my academic studies.</p>     
+    </div>
+    <div class="education-hs">
+      <ul class="education-ul">
+        <li class="education-li"><span class="date">Aug,2018 - Jun,2021 :</span> 
+          <p>Computer Technician at @CBTIS #239 </p></li>
+        <li class="education-li"><span class="date">Sep, 2021 - Present :</span> 
+          <p>University Senior Technician on Software Development at @UTNC</p>
+        </li>
+      </ul>
+      <span>Online Education</span>
+      <ul class="education-ul online">
+        <li class="education-li"><span class="date"><img src="/assets/udemy-2.svg" alt="Udemy logo"></span></li>
+        <li class="education-li"><span class="date"><i class="fa-brands fa-free-code-camp"></i> FREECODECAMP</span></li>
+      </ul>
+    </div>
+    </section>
     <section class="about-me" id="about-me">
       <div class="about-title">
         <h2>
@@ -154,8 +183,8 @@
             </div>
         </div> 
       </div>
-
     </section>
+
     <section class="hero-contact" id="contact">
             <div class="conect">
                 <h2>
@@ -165,7 +194,7 @@
                 <p> If you are interested in collaborating in any project, hire me or just want to say hello, write me a message through my email alexisdlr3009@hotmail.com and I will respond as soon as possible.</p>
             </div>
             <div class="form-container">
-              <form action="https://formsubmit.co/alexgoku500@gmail.com" method="post" class="form">
+              <form action="https://formsubmit.co/alexgoku500@gmail.com" method="POST" class="form">
                 <span>Send me a message</span>
                 <div class="name">
                   <label for="Name">Name:</label>
