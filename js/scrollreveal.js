@@ -5,7 +5,8 @@ ScrollReveal().reveal('.aka', { duration: 2000, origin: 'left', distance: '-180p
 ScrollReveal().reveal('.dev', { duration: 2000, origin: 'top', distance: '-180px' });
 ScrollReveal().reveal('.projects', { duration: 2000, origin: 'left', distance: '-180px' });
 ScrollReveal().reveal('.projects-p', { duration: 2000, origin: 'left', distance: '200px' });
-ScrollReveal().reveal('.education', { duration: 2000, origin: 'right', distance: '200px' });
+ScrollReveal().reveal('.education-title', { duration: 2000, origin: 'right', distance: '-180px' });
+ScrollReveal().reveal('.education-hs', { duration: 2000, origin: 'right', distance: '180px' });
 ScrollReveal().reveal('.work', { duration: 3000, origin: 'bottom', distance: '180px' });
 ScrollReveal().reveal('.about-me', { duration: 3000, origin: 'center', distance: '0' });
 ScrollReveal().reveal('.conect', { duration: 3000, origin: 'top', distance: '180px' });
