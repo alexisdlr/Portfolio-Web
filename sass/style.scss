@@ -321,6 +321,7 @@ body {
   width: 100%;
   display: flex;
   justify-content:space-between;
+  flex-wrap: wrap;
  /* grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 3rem;
